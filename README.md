@@ -1,2 +1,7 @@
 # Library-Management-System
 Library Management System is a Java-based desktop app using Swing, MySQL, and JDBC. It allows admins to manage books, users, and transactions with full CRUD operations. Users can log in, view, and borrow books. Features include real-time updates, unique ISBN checks, and auto-generated book IDs.
+The Library Management System (LMS) is a Java-based desktop application designed to automate and simplify day-to-day operations of a library. It enables efficient management of books, users, and borrowing transactions. Built using Java Swing for the GUI, MySQL as the backend database, and JDBC for connectivity, this system provides a user-friendly interface and real-time data handling.
+
+The application supports two types of users: Admins and Library Users. Admins have full access to manage the system, including adding, updating, deleting, and viewing books and user information. They can also track borrow/return activity and generate usage reports. Regular users can log in to their accounts, view available books, and borrow them based on availability.
+
+The system performs CRUD operations (Create, Read, Update, Delete) on both books and users. It includes validations such as unique ISBNs for books and auto-incrementing book IDs. The availability of books is dynamically updated based on borrow and return transactions. Each book record includes fields like title, author, ISBN, category, total copies, available copies, and added date (timestamp).
